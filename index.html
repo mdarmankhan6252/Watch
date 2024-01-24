@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- ------------google fonts----------- -->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <!-- ------------tailwind css------------- -->
+
+   <script src="https://cdn.tailwindcss.com"></script>
+
+   <!-- ----------------font awesome--------- -->
+
+   <script src="https://kit.fontawesome.com/8adc1008f7.js" crossorigin="anonymous"></script>
+
+   <!-- -----------styles----------- -->
+
+   <style>
+      .inter{
+         font-family: 'Inter', sans-serif;
+      }
+      .poppins{
+         font-family: 'Poppins', sans-serif;
+      }
+      *{
+         margin: 0;
+         padding: 0;
+      }
+   </style>
+
+   <title>Watch Home</title>
+</head>
+<body class="poppins">
+   <header class="bg-gradient-to-r from-gray-800 to-gray-950 pt-5">
+      <div class="container m-auto px-2 md:px-0 text-white">
+         <nav class="flex items-center justify-between">
+            <div class="flex items-center">
+               <img src="img/logo.png" class="w-8">
+               <h4 class="text-xl">Arman</h4>
+
+            </div>
+            <div class="hidden md:block">
+               <ul class="flex items-center space-x-5 *:text-[#8B8E99] ">
+                  <li class="*:text-white *:text-[18px]"><a href="#">Home</a></li>
+                  <li class="*:hover:text-white *:text-[18px]"><a href="#">Brands</a></li>
+                  <li class="*:hover:text-white *:text-[18px]"><a href="#">Products</a></li>
+                  <li class="*:hover:text-white *:text-[18px]"><a href="#">Contact</a></li>
+                  <li class="*:hover:text-white *:text-[18px]"><a href="#">About</a></li>
+               </ul>
+            </div>
+            <div class="flex items-center space-x-5 *:text-xl *:cursor-pointer">
+               <i class="fa-solid fa-magnifying-glass"></i>
+               <i class="fa-solid fa-user"></i>
+               <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+         </nav>
+
+      <!-- ----------banner---------- -->
+
+         <div class="flex items-center justify-between gap-x-4 py-32 flex-col md:flex-row">
+            <div class="basis-[50%] space-y-4">
+               <h1 class="text-5xl font-bold tracking-wide leading-[60px]">Discover<br>Most Suitable<br><span class="text-[#5777f7]">Watches</span></h1>
+               <p class="text-[#8B8E99] font-medium tracking-wide pb-5"><span class="text-white text-xl">Find </span>the best, reliable, and cheap smart watches here. We focus on product quality. Here you can find smart watches of almost all brands. So why you are waiting? Just order now!</p>
+               <form action="" class="bg-white flex items-center justify-between rounded-md max-w-[600px]">
+                  <i class="fa-solid fa-magnifying-glass px-2 text-xl text-[#3858d6]"></i>
+                  <input type="text" placeholder="Find the best brands" class="border-none  p-3 w-full outline-none text-black">
+                  <button class=" p-2 bg-[#3858D6] mx-2 rounded-md">Search</button>
+               </form>
+            </div>
+            <div class="basis-[40%] mt-16 mt:0">
+               <img src="img/banner.png" class="w-[90%]">
+            </div>
+            <div>
+
+            </div>
+         </div>
+      </div>
+
+   </header>
+   <main class="container m-auto px-2 md:px-0 py-24">
+
+      <!-- ------------features---------- -->
+
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+         <div class="p-12 border-gray-200 rounded-md border bg-[#F6F6F6] space-y-4 flex basis-[31%] items-center">
+            <img src="img/featurs-1.png" class="">
+            <div class="ml-6">
+               <h1 class="font-semibold text-3xl">Apple</h1>
+               <p class="text-[#8B8E99]">Apple is one of the most famous smart watches providing company.</p>
+            </div>
+         </div>
+         <div class="p-12 border-gray-200 rounded-md border bg-[#F6F6F6] space-y-4 flex basis-[31%] items-center">
+            <img src="img/featurs-2.png" class="">
+            <div class="ml-6">
+               <h1 class="font-semibold text-3xl">Apple</h1>
+               <p class="text-[#8B8E99]">Apple is one of the most famous smart watches providing company.</p>
+            </div>
+         </div>
+         <div class="p-12 border-gray-200 rounded-md border bg-[#F6F6F6] space-y-4 flex items-center basis-[31%]">
+            <img src="img/featurs-3.png" class="">
+            <div class="ml-6">
+               <h1 class="font-semibold text-3xl">Apple</h1>
+               <p class="text-[#8B8E99]">Apple is one of the most famous smart watches providing company.</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- ---------------latest----------- -->
+
+      <div class="pt-24">
+         <div class="text-center space-y-2 pb-10">
+            <p class="text-[#3858D6] font-semibold">Find your favourite smart watch.</p>
+            <h1 class="text-4xl font-semibold">Our Latest Products</h1>
+         </div>
+
+         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            <div class="text-center border border-gray-200 rounded-lg p-6 space-y-1">
+               <div class="flex justify-center">
+                  <img src="img/latest-1.png" class="bg-[#F6F6F6]  p-8 rounded-lg w-full">
+               </div>
+               <h3 class="mt-3 font-semibold text-2xl">Apple Smart I</h3>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <div>
+                  <p class="text-xl font-semibold"><span class="line-through text-[#8B8E99] font-normal">$300.00</span> $255.00</p>
+               </div>
+            </div>
+
+            <div class="text-center border border-gray-200 rounded-lg p-6 space-y-1">
+               <div class="flex justify-center">
+                  <img src="img/latest-2.png" class="bg-[#F6F6F6]  p-8 rounded-lg w-full">
+               </div>
+               <h3 class="mt-3 font-semibold text-2xl">Apple Smart II</h3>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <div>
+                  <p class="text-xl font-semibold"><span class="line-through text-[#8B8E99] font-normal">$300.00</span> $255.00</p>
+               </div>
+            </div>
+
+            <div class="text-center border border-gray-200 rounded-lg p-6 space-y-1">
+               <div class="flex justify-center">
+                  <img src="img/latest-3.png" class="bg-[#F6F6F6]  p-8 rounded-lg w-full">
+               </div>
+               <h3 class="mt-3 font-semibold text-2xl">Apple Smart III</h3>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <div>
+                  <p class="text-xl font-semibold"><span class="line-through text-[#8B8E99] font-normal">$300.00</span> $255.00</p>
+               </div>
+            </div>
+
+            <div class="text-center border border-gray-200 rounded-lg p-6 space-y-1">
+               <div class="flex justify-center">
+                  <img src="img/latest-4.png" class="bg-[#F6F6F6]  p-8 rounded-lg w-full">
+               </div>
+               <h3 class="mt-3 font-semibold text-2xl">Apple Smart IV</h3>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <div>
+                  <p class="text-xl font-semibold"><span class="line-through text-[#8B8E99] font-normal">$450.00</span>$399.00</p>
+               </div>
+            </div>
+
+            <div class="text-center border border-gray-200 rounded-lg p-6 space-y-1">
+               <div class="flex justify-center">
+                  <img src="img/latest-5.png" class="bg-[#F6F6F6]  p-8 rounded-lg w-full">
+               </div>
+               <h3 class="mt-3 font-semibold text-2xl">Samsung Watch Pro</h3>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <div>
+                  <p class="text-xl font-semibold"><span class="line-through text-[#8B8E99] font-normal">$300.00</span> $255.00</p>
+               </div>
+            </div>
+
+            <div class="text-center border border-gray-200 rounded-lg p-6 space-y-1">
+               <div class="flex justify-center">
+                  <img src="img/latest-6.png" class="bg-[#F6F6F6]  p-8 rounded-lg w-full">
+               </div>
+               <h3 class="mt-3 font-semibold text-2xl">Fitbit Max 1</h3>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <div>
+                  <p class="text-xl font-semibold">$155.00</p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <!-- ----------client says---------- -->
+
+
+   <div class="pt-24">
+      <div class="text-center space-y-2">
+         <p class="text-[#3858D6] font-semibold">Find your favourite smart watch.</p>
+         <h1 class="text-4xl font-semibold">Our Latest Products</h1>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 pt-12">
+
+         <div class="p-4 border-gray-200 rounded-md border bg-[#F6F6F6] space-y-4 flex items-center">
+            <img src="img/client-1.png" class="">
+            <div class="ml-6">
+               <h1 class="font-semibold text-2xl">Hamza Faizi</h1>
+               <p class="text-[#8B8E99]">Don’t waste time, just order! This is the best website to puschase smart watches.</p>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+            </div>
+         </div>
+
+         <div class="p-4 border-gray-200 rounded-md border bg-[#F6F6F6] space-y-4 flex items-center">
+            <img src="img/client-2.png" class="">
+            <div class="ml-6">
+               <h1 class="font-semibold text-2xl">Hafiz Huzaifa</h1>
+               <p class="text-[#8B8E99]">I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.</p>
+               <div class="*:text-amber-500">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- ----------------newsletter------------ -->
+
+   <div class="pt-24">
+      <div class="bg-[#F6F6F6] py-24 px-12 flex justify-between items-center flex-col sm:flex-row">
+         <div class="text-black space-y-4 basis-[55%] mb-12">
+            <h1 class="text-3xl font-semibold">Subscribe To Newsletter</h1>
+            <p class="text-[#8B8E99]">Get free guide about smart watches daily. </p>
+            <form action="" class="bg-white flex items-center justify-between rounded-md max-w-[600px] border border-gray-200">
+               <input type="text" placeholder="Enter Email Address" class="border-none  p-3 w-full outline-none text-black">
+               <button class=" py-2 px-6 bg-[#3858D6] mx-2 rounded-md text-white">Subscribe</button>
+            </form>
+         </div>
+         <div class="basis-[35%]">
+            <img src="img/banner-2.png" class="w-[350px]">
+         </div>
+      </div>
+
+   </div>
+   </main>
+   <footer class="py-5 bg-black text-white text-sm text-center">
+      <p>Copyright @ 2024 | Arman</p>
+
+   </footer>
+   
+</body>
+</html>
